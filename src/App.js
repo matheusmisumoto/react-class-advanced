@@ -6,6 +6,8 @@ import Fragments from './fragments'
 import RenderProps from './render-props'
 import PropTypeClass from './prop-types'
 import RefsDom from './refs-dom'
+import DumbComponents from './dumb-components'
+import SmartComponents from './smart-components'
 
 class App extends Component {
 
@@ -23,6 +25,8 @@ class App extends Component {
     // Class 06: Render Props <RenderProps />
     // Class 07: Prop Types <PropTypes />
     // Class 08: Refs and DOM <RefsDom />
+    // Class 09: Dumb Components <DumbComponents />
+    // Class 10: Smart Components <SmartComponents />
 
     return (
       <div>
@@ -32,7 +36,8 @@ class App extends Component {
         {/* <Fragments /> */}
         {/* <RenderProps /> */}
         {/* <PropTypeClass /> */}
-        <RefsDom />
+        {/* <RefsDom /> */}
+        <SmartComponents />
       </div>
     )
   }

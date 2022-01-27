@@ -12,6 +12,8 @@ This project contains my personal notes from advanced module of ReactJS course.
 6. Render Props
 7. Prop Types
 8. Refs and DOM
+9. Dumb Components
+10. Smart Components
 
 Except from ErrorBoundary inserted on index.js, every other topic is able to activation using the respective tag on App.js
 

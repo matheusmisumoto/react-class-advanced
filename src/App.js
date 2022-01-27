@@ -1,13 +1,7 @@
 import React, { Component } from 'react'
-import LifeCicle from './life-cicle'
-import Hooks from './hooks'
-import ContextAPI from './context-api'
-import Fragments from './fragments'
-import RenderProps from './render-props'
-import PropTypeClass from './prop-types'
-import RefsDom from './refs-dom'
-import DumbComponents from './dumb-components'
-import SmartComponents from './smart-components'
+import { Link } from 'react-router-dom'
+import MyRoutes from './routes'
+
 
 class App extends Component {
 
@@ -29,16 +23,24 @@ class App extends Component {
     // Class 10: Smart Components <SmartComponents />
 
     return (
-      <div>
-        {/* <LifeCicle /> */}
-        {/* <Hooks /> */ }
-        {/* <ContextAPI /> */}
-        {/* <Fragments /> */}
-        {/* <RenderProps /> */}
-        {/* <PropTypeClass /> */}
-        {/* <RefsDom /> */}
-        <SmartComponents />
-      </div>
+      <>
+        <h1>Table of Contents</h1>
+        <ol>
+          <li><Link to="/classes/life-cicle">Life Cicle</Link></li>
+          <li><Link to="/classes/hooks">Hooks</Link></li>
+          <li><Link to="/classes/context-api">Context API</Link></li>
+          <li><Link to="/classes/fragments">Fragments</Link></li>
+          <li>Error Boundary (used on index.js)</li>
+          <li><Link to="/classes/render-props">Render Props</Link></li>
+          <li><Link to="/classes/type-checking">Type checking with Prop Types</Link></li>
+          <li><Link to="/classes/refs-and-dom">Refs and DOM</Link></li>
+          <li><Link to="/classes/dumb-components">Dumb Components</Link></li>
+          <li><Link to="/classes/smart-components">Smart Components</Link></li>
+          <li><Link to="/classes/project-organization">Organizing your project</Link></li>
+        </ol>
+        <hr style={{margin: '25px 0' }} />
+        <MyRoutes />
+      </>
     )
   }
 }

@@ -14,6 +14,7 @@ This project contains my personal notes from advanced module of ReactJS course.
 8. Refs and DOM
 9. Dumb Components
 10. Smart Components
+11. Organizing your Project
 
 Except from ErrorBoundary inserted on index.js, every other topic is able to activation using the respective tag on App.js
 
